@@ -16,4 +16,6 @@ for (i = 0; i < filhos.length; i++) {
 let mediaSal = total / participantes;
 let mediaFilhos = totalFilhos / participantes;
 var maiorSal = Math.max.apply(null, salario);
-console.log(mediaFilhos, mediaSal, maiorSal);
+console.log(
+	`Média dos filhos: ${mediaFilhos}, Média do salário: ${mediaSal}                                                                                                                                Maior salário: ${maiorSal}`
+);
