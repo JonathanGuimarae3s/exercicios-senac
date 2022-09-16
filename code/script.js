@@ -9,10 +9,12 @@ let g5 = parseInt(prompt("qual é a quinta grandeza ?"));
 let resp = prompt(
 	"essa regra é diretamente ou inversamente proporcional?[D/I]"
 );
-if (resp == "I") {
-	// se for inversa, o valores g2 multipliicara com g3 e g4 com g1 
+if (resp == "I" || resp == "i") {
+	// se for inversa, o valores g2 multipliicara com g3 e g4 com g1
 	num = g2 * g3;
+	console.log(num);
 	deno = g4 * g1;
+	console.log(deno);
 	cruzado = (g5 * deno) / num;
 	console.log(`seu resultado foi ${cruzado}`);
 } else {
