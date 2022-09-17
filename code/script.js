@@ -1,10 +1,10 @@
 // Desenvolva uma lógica que possa ser utilizado em qualquer questão que envolva regra de três composta, trazendo o resultado ao final
 //  g's serao  os valorres das grandezas
-let g1 = parseInt(prompt("qual é a primeira grandeza ?"));
-let g2 = parseInt(prompt("qual é a  segundo valor da grandeza anterior ?"));
-let g3 = parseInt(prompt("qual a segunda grandeza ?"));
-let g4 = parseInt(prompt("qual é a  segundo valor da grandeza anterior ?"));
-let g5 = parseInt(prompt("qual é a quinta grandeza ?"));
+let g1 = parseFloat(prompt("qual é a primeira grandeza ?"));
+let g2 = parseFloat(prompt("qual é a  segundo valor da grandeza anterior ?"));
+let g3 = parseFloat(prompt("qual a segunda grandeza ?"));
+let g4 = parseFloat(prompt("qual é a  segundo valor da grandeza anterior ?"));
+let g5 = parseFloat(prompt("qual é a quinta grandeza ?"));
 // pergunta sobre se a questao é diretamente ou inversamente proporcional
 let resp = prompt(
 	"essa regra é diretamente ou inversamente proporcional?[D/I]"
