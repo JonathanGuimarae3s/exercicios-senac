@@ -11,8 +11,8 @@ package projetoteste;
  */
 public class Aluno {
 
-    public String nome;
-    public String sobrenome;
+    private String nome;
+    private String sobrenome;
 
     private int idade;
 
@@ -22,17 +22,27 @@ public class Aluno {
 
     }
 
-    public Aluno(String nome) {
-        this.nome = nome;
-        this.sobrenome = "Guimaraes";
+    public Aluno(String sobrenome) {
+
+        this.sobrenome = sobrenome;
 
     }
 
-    public Aluno(String nome, String sobrenome) {
-      
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-       
+    public void setIdade(int idade) {
+//    serve para inserir
+        if (idade > 0 && idade < 150) {
+            this.idade = idade;
+        } else {
+            System.out.println("Idade inválida!! Inserir um valor entre 0 e 150");
+
+        }
+
+    }
+
+    public int getIdade() {
+//        retorna um atributo
+        return idade;
+
     }
 
     public void cadastrar() {

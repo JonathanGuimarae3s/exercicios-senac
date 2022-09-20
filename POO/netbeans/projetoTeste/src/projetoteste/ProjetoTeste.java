@@ -17,7 +17,9 @@ public class ProjetoTeste {
     public static void main(String[] args) {
         Aluno a1 = new Aluno();
 
-        Aluno a2 = new Aluno("jonathan", "Guimaraes");
+        Aluno a2 = new Aluno();
+        a1.setIdade(190);
+      
 
         // TODO code application logic here
         /*  Aluno a3 = new Aluno("Matos ");
