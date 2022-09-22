@@ -1,7 +1,7 @@
 # Logica de programção 
 
 
-[Exercícios](juros)
+[https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/logica%20de%20programa%C3%A7%C3%A3o/game](juros)
 **(Exercício Avaliativo)**
 -Alguns ;
 - Desenvolvido por : Jonathan Guimarães, Joao Pedro e Allan Queiroz.
