@@ -1,5 +1,5 @@
 # Logica de programção
-##### Fui monitor da turma, pois já possuía conhecimento!
+##### Nesta UC eu fui monitor da turma, pois já possuía conhecimento!
 
 [Avalição](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/logica-de-programa%C3%A7%C3%A3o/avaliacao)
 
