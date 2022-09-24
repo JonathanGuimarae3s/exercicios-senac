@@ -9,14 +9,15 @@
   3. Sequencia: Escrever uma sequencia de numeros
 - Desenvolvido por : Jonathan Guimarães.
 
-[Regra de Três](regra-de-tres/)
-**(Exercício Avaliativo)**
-
-- O program foi construído para calcular regra de tres simples e compostas;
-- Densenvolvido por : Jonathan Guimarães.
-
 [Cpf](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/logica-de-programa%C3%A7%C3%A3o/cpf)
-**Desafio proposto para a turma**
+**(Desafio proposto para a turma)**
 
 - O objetivo do programa é verificar se o CPF é valido;
 - Densenvolvido por : Jonathan Guimarães.
+
+[Exercícios](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/logica-de-programa%C3%A7%C3%A3o/exercicios)
+
+- Alguns exercícios em JS e português estruturado para praticar lógica;
+
+
+
