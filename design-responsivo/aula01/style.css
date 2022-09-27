@@ -1,18 +1,21 @@
-#t1 {
-	text-align: center;
-    color: yellow;
+@media screen and (min-width: 200px) {
+    body {
+        background-color: rgb(42, 165, 71);
+    }
 }
 
-#t2 {
-	text-align: end;
-    color: blue;
+@media screen and (min-width: 600px) {
+    body {
+        background-color: brown;
+    }
 }
 
-#t3 {
-	text-align: start;
-    color: aquamarine;
-}
+@media (min-width: 800px) {
+    body {
+        background: rgb(255, 0, 0);
+    }
 
-.titulo {
-	background-color: black;
+    h3 {
+        padding: 100px;
+    }
 }
