@@ -1,0 +1,18 @@
+#t1 {
+	text-align: center;
+    color: yellow;
+}
+
+#t2 {
+	text-align: end;
+    color: blue;
+}
+
+#t3 {
+	text-align: start;
+    color: aquamarine;
+}
+
+.titulo {
+	background-color: black;
+}

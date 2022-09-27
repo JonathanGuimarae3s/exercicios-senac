@@ -4,3 +4,5 @@
 - [Logica Matemática](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/logica-mat)
 - [Programação Orientado a Objetos (POO)](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/POO)
 
+- [HTML-CSS](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/html-css)
+- [Design Responsivo](https://github.com/JonathanGuimarae3s/exercicios-senac/tree/main/design-responsivo)
