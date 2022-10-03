@@ -1,0 +1,44 @@
+:root {
+    --color1: #e16246;
+    --color2: #F5CBC1;
+}
+
+h3 {
+    text-align: initial !important;
+}
+
+section {
+
+    margin: 20px auto;
+    max-width: 80%;
+    background-color: #F5CBC1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 8px #00000066;
+}
+
+.detalhes {
+    display: inline-grid;
+    grid-template-columns: 200px 400px;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+
+
+}
+
+.ficha-tecnica>p {
+
+    color: #000;
+}
+
+.ficha-tecnica>p>span {
+    color: #e16246;
+}
+
+.historia>p {
+    text-align: justify;
+    margin: 5px 0;
+
+}

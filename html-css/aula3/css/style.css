@@ -8,12 +8,17 @@
     font-family: Roboto;
 }
 
+:root {
+    --color1: #e16246;
+    --color2: #F5CBC1;
+}
+
 body {
 
 
 
 
-    background-color: #e16246;
+    background-color: var(--color1);
 }
 
 header {
@@ -25,7 +30,7 @@ header {
 
 nav {
     width: 80%;
-    margin:0px auto 5px auto;
+    margin: 0px auto 5px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,7 +104,9 @@ h3 {
     background-color: #FFFFFFAA;
     border-radius: 2px;
     width: 18%;
-    box-shadow:  6px 6px 8px #00000066;
+    box-shadow: 6px 6px 8px #00000066;
+    text-align: justify;
+    padding: 10px;
 }
 
 .capa-vol {
@@ -118,7 +125,7 @@ h3 {
 footer {
     margin-top: 2em;
     text-align: center;
-    background-color: #F5CBC1;
+    background-color: var(--color2);
     padding: 5px;
 
 
