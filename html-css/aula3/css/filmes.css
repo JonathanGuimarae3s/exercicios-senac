@@ -17,13 +17,16 @@ section {
     box-shadow: 6px 6px 8px #00000066;
 }
 
+
 .detalhes {
+    max-width: 100%;
     display: inline-grid;
     grid-template-columns: 200px 400px;
     align-items: end;
     justify-content: center;
     gap: 10px;
     margin: 10px 0;
+   
 
 
 }
@@ -35,6 +38,7 @@ section {
 
 .ficha-tecnica>p>span {
     color: #e16246;
+
 }
 
 .historia>p {
