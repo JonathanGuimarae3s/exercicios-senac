@@ -57,16 +57,41 @@
         a {
             color: rgba(255, 255, 255, 0.822);
         }
-        #fundo{
 
-            background-image: url(13311397_v617batch2-kul-05-technology\ \(1\).jpg);
+        #fundo div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: url(teste.jpg);
             background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             overflow: hidden;
-            
-            
-            
-            height:30em;
 
+
+
+            height: 30em;
+
+        }
+
+        #fundo div h1 {
+            color: silver;
+            font-size: 8em;
+
+        }
+
+        #fundo div p {
+            font-size: 20px;
+            color: gray;
+
+
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -84,13 +109,26 @@
         </div>
     </header>
     <main>
-        <section>
+        <section id="fundo">
             <div id="fundo">
                 <h1>
                     Hefesto
-                    <p>Solucionando problemas com tecnologia</p>
+
                 </h1>
+                <p>Solucionando problemas com tecnologia</p>
             </div>
+        </section>
+        <section class="container">
+
+            <h2>Serviços
+
+            </h2>
+            <div>
+                <img src="" alt="">
+            </div>
+
+
+
         </section>
     </main>
 </body>
