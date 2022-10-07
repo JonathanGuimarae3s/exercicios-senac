@@ -22,7 +22,9 @@ body {
 }
 
 header {
+    
 
+   
 
     width: 100%;
 
@@ -79,6 +81,9 @@ main
 banner */
 #banner {
     width: 100%;
+}
+#banner img{
+    height:75vh;
 }
 
 /* fim banner

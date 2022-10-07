@@ -3,17 +3,16 @@
     margin: 0;
 }
 
-header {
-    background-color: #ffffffaa;
-    margin-bottom: 30px;
-}
 
-li>a {
-    color: black;
-}
 
 section>div {
     text-align: center;
+}
+
+section img {
+    box-shadow: 0px 0px 8px 4px #f5cbc163;
+
+    margin-bottom: 10px;
 }
 
 #historia {
@@ -23,5 +22,5 @@ section>div {
     text-align: initial;
     max-width: 47%;
     border-radius: 3px;
-box-shadow:6px 6px 8px #00000066;
+    box-shadow: 6px 6px 8px #00000066;
 }
