@@ -15,6 +15,7 @@
 * {
     font-family: "roboto";
 }
+body {
     background-color: var(--color-4);
 }
 nav {
