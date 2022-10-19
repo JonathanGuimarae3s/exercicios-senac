@@ -5,30 +5,40 @@
       font-family: "Roboto";
   }
 
-  
- 
- 
- 
-  
+
+
+
+
+
 
   :root {
       --color-1: #e3d1c1;
       --color-2: #dea981ad;
-      --color-3:#FFD1D1;
-      --color-4:#FFF5E4;
-      --color-5:#FFE3E1;
-      --color-6:#FFD1D1;
-      --color-7:#FF9494;
+      --color-3: #FFD1D1;
+      --color-4: #FFF5E4;
+      --color-5: #FFE3E1;
+      --color-6: #FFD1D1;
+      --color-7: #FF9494;
 
   }
-body{
-    background-color: var(--color-4);
-}
+
+  body {
+      background-color: var(--color-4);
+  }
+
+  /* referente 
+à navbar */
   .navbar {
       background-color: transparent;
       position: absolute;
   }
 
+  .offcanvas {
+      background-color: var(--color-1)
+  }
+
+  /* fim navbar */
+  /* img-fundo */
   #img-fundo {
       width: 100%;
       height: 80vh;
@@ -40,6 +50,8 @@ body{
       width: 100%;
 
   }
+
+  /* fim  img-fundo */
 
   /* main */
   /* card section */
