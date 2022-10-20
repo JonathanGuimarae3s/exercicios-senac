@@ -1,5 +1,5 @@
 let input = document.querySelectorAll("input")
-console.log(input)
+console.log(input[0])
 
 
     
