@@ -9,11 +9,13 @@ package projetoteste;
  *
  * @author 169127512022.4
  */
-public class Aluno {
+public class Aluno extends Pessoa {
 
     private String matricula;
 
     public Aluno() {
+//        
+        super();
     }
 
     public void setMatricula(String matricula) {

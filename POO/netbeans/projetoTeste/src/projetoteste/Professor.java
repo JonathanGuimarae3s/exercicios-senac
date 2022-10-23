@@ -12,6 +12,7 @@ package projetoteste;
 public class Professor {
 
     String titulacao;
+    
 
     public Professor() {
     }
@@ -23,5 +24,7 @@ public class Professor {
     public String getTitulacao() {
         return titulacao;
     }
+
+    
 
 }
