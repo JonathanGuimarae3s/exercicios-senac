@@ -1,10 +1,17 @@
-let filmesId = "0000001";
-let url = `http://www.omdbapi.com/?i=tt${filmesId}&apikey=9ae51d8c`;
+onload = () => {
+	let filmesId = 1000000;
+    
 
-fetch(url)
-	.then((response) => {
-		return response.json();
-	})
-	.then((data) => {
-		console.log(data);
-	});
+	while (filmesId!=9999999) {
+       let idURL = toString(filmesId)
+		let url = `http://www.omdbapi.com/?i=tt${idURL}&apikey=9ae51d8c`;
+		fetch(url)
+			.then((response) => {
+				return response.json();
+			})
+			.then((data) => {
+				console.log(data);
+			});
+		filmesId--;
+	}
+};
