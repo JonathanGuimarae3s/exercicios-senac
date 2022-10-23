@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Repair | Cadastro de Funcionários</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../../../css/cadastros.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg w-100 ">
+        <div class="container justify-content-between">
+            <div>
+                <a class="navbar-brand" href="../main.html">Beauty Repair</a>
+            </div>
+
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-expand-lg offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Beuaty Repair</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../main.html">Home</a>
+                            <li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Serviços</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Cadastros
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark bg-dark">
+                                    <li><a class="dropdown-item" href=".././listar-clientes.html">Clientes</a></li>
+                                    <li><a class=" dropdown-item" href=".././listar-funcionarios.html">Funcionario</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href=".././listar-cabeleleiros.html">Cabeleleiro</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container ">
+        <h2 class="text-center my-3">Cadastro de Funcionário</h2>
+        <form>
+            <div class="row  flex-column flex-sm-column flex-md-row">
+                <div class=" col col-md-3 mb-3">
+                    <label class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+                </div>
+                <div class=" col col-md-3 mb-3">
+                    <label class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="sobrenome">
+                </div>
+                <div class=" col col-md-3 mb-3">
+                    <label class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="cpf">
+                </div>
+                <div class="col col-md-3 mb-3 mb-3 unicos">
+                    <label class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="dataNascimento">
+                </div>
+
+            </div>
+            <div class=" mb-3 unicos">
+
+                <label for="exampleInputEmail1" class="form-label">Gênero</label>
+                <div class="row">
+                    <div class="form-check col-4">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            M
+                        </label>
+                    </div>
+                    <div class="form-check col-4">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            F
+                        </label>
+
+                    </div>
+                    <div class="form-check col-4">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Outros
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row  flex-column flex-sm-column flex-md-row">
+                <div class=" col col-md-4 mb-3">
+                    <label class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="endereco">
+                </div>
+                <div class=" col col-md-5 mb-3">
+                    <label class="form-label">Ponto de referência</label>
+                    <input type="text" class="form-control" id="pontoDeReferencia">
+                </div>
+                <div class=" col col-md-3 mb-3">
+                    <label class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="cep">
+                </div>
+            </div>
+
+
+
+            <div class="  mb-3 unicos">
+                <label class="form-label">Área</label>
+                <select class="form-select" aria-label="Default select example">
+
+                    <option value="0">Limpeza</option>
+                    <option value="1">Caixa</option>
+                    <option value="2">Administração</option>
+                    <option value="3">Gerência</option>
+                </select>
+            </div>
+
+            <div class=" mb-3 unicos">
+                <label class="form-label">Vinculo</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="0">CLT</option>
+                    <option value="1">PJ</option>
+                    <option value="1">Voluntário</option>
+                </select>
+            </div>
+
+
+            <a  class="btn btn-primary" onclick="funcionario.salvar()">Finalizar o
+                Cadastro</a>
+        </form>
+        <section class="container my-4">
+            <a href="forms/formCadFuncionario.html"><button class="btn btn-success mb-4">Adicionar um
+                    funcionário</button></a>
+            <table class="table table-bordered   table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Horario</th>
+                        <th scope="col">Área</th>
+                        <th scope="col">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="../../../js/script..js "></script>
+</body>
+
+</html>

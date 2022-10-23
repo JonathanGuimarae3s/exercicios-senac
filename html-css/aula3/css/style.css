@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+:root {
+    --color1: #e16246;
+    --color2: #F5CBC1;
+}
+
+body {
+
+
+
+
+    background-color: var(--color1);
+}
+
+header {
+    
+
+   
+
+    width: 100%;
+
+}
+
+nav {
+    width: 80%;
+    margin: 0px auto 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#logo {
+    width: 10em;
+
+}
+
+#logo>a>img {
+    width: 100%;
+}
+
+ul {
+
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+ul>li {
+
+    list-style: none;
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* 
+
+main
+*/
+
+.back {
+    width: 100%;
+}
+
+/* 
+banner */
+#banner {
+    width: 100%;
+}
+#banner img{
+    height:75vh;
+}
+
+/* fim banner
+ */
+
+h3 {
+    text-align: center;
+}
+
+/* vol
+  */
+#Volumes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFFAA;
+    border-radius: 2px;
+    width: 18%;
+    box-shadow: 6px 6px 8px #00000066;
+    text-align: justify;
+    padding: 10px;
+}
+
+.capa-vol {
+    width: 200px;
+    padding: 20px;
+}
+
+.descricao-vol {
+    width: 220px;
+    font-size: 15px;
+}
+
+/* fim vol */
+
+/* footer */
+footer {
+    margin-top: 2em;
+    text-align: center;
+    background-color: var(--color2);
+    padding: 5px;
+
+
+}
+
+/* fim footer */

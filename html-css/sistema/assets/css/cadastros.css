@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+:root {
+    --color-1: #e3d1c1;
+    --color-2: #dea981ad;
+    --color-3: #FFD1D1;
+    --color-4: #FFF5E4;
+    --color-5: #FFE3E1;
+    --color-6: #FFD1D1;
+    --color-7: #FF9494;
+
+}
+
+
+* {
+    font-family: "roboto";
+}
+body {
+    background-color: var(--color-4);
+}
+nav {
+    background-color: var(--color-2);
+}
+.offcanvas{
+    background-color: var(--color-1)
+}
+form{
+    background-color: var(--color-1);
+    padding: 30px;
+box-shadow: 1px 1px 5px 4px #0000003b;
+}
+
+.unicos{
+    width: fit-content;
+}

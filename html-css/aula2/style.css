@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+img{
+    width: 80%;
+}
+.linha::after{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.coluna {
+    float: left;
+    padding: 33.33%;
+    padding: 5px;
+
+}

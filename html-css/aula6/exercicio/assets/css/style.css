@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #081A40;
+    --color2: #103173;
+    --color3: #1B49A6;
+    --color4: #1E5CD9;
+    --color5: #13F2F2;
+}
+
+body {
+    background-color: var(--color4);
+}
+
+header {
+    width: 100%;
+    background-color: var(--color1);
+
+
+}
+
+header div {
+    color: rgba(255, 255, 255, 0.86);
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+ul {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0.822);
+}
+
+#fundo {}
+
+#fundo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./imgs/wepik-photo-mode-202295-23234.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+
+
+    height: 30em;
+
+}
+
+#fundo div h1 {
+    color: silver;
+    font-size: 8em;
+
+}
+
+#fundo div p {
+    font-size: 20px;
+    color: gray;
+
+
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}

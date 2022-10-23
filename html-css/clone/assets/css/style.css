@@ -1,0 +1,55 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic);
+* {
+    font-family:"Roboto Condensed";
+}
+
+
+#oms {
+    width: fit-content;
+    padding: 10px;
+    background-color: #0099D9;
+}
+
+#oms>a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+
+
+
+
+}
+
+#oms>a:hover {
+    background-color: #0099D9;
+    text-decoration: underline;
+    color: white;
+
+
+
+
+
+}
+#topicos{
+    width: fit-content;
+    padding: 35px;
+    background-color: #f5f5f5;
+}
+
+#secao2 {
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.accordion {
+width: 915px;
+
+
+}
+.accordion-button{
+    background-color: #0099D9!important;
+    color: #fff!important;
+   
+}
