@@ -11,7 +11,7 @@ CREATE TABLE cliente (
     pontoDeReferencia VARCHAR(50) NOT null,
     municipio VARCHAR(50) NOT null,
     complemento VARCHAR
-);
+)ENGINE = innodb;
 CREATE TABLE filmes (
     idFilme INT(11) PRIMARY KEY AUTO_INCREMENT,
     nome_do_diretor VARCHAR(50) NOT null,
@@ -19,7 +19,7 @@ CREATE TABLE filmes (
     nome_do_fornecedor VARCHAR(50) NOT null,
     qtd_em_estoque INT(100) NOT null,
     fk_fornecedor_idFornecedor VARCHAR
-);
+)ENGINE = innodb;
 CREATE TABLE fornecedor (
     idFornecedor INT(11) PRIMARY KEY AUTO_INCREMENT,
     nome_do_gerente VARCHAR(50) NOT null,
@@ -31,13 +31,13 @@ CREATE TABLE fornecedor (
     numero VARCHAR(50) NOT null,
     municipio VARCHAR(50) NOT null,
     tipoDeLougradoro VARCHAR(50) NOT null
-);
+)ENGINE = innodb;
 CREATE TABLE comprar (
     fk_cliente_id_cliente INT,
     fk_filmes_idFilme INT,
     data_da_compra DATE NOT NULL,
     formaDePagamento VARCHAR(50) NOT null
-);
+)ENGINE = innodb;
 ALTER TABLE filmes
 ADD CONSTRAINT FK_filmes_2 FOREIGN KEY (fk_fornecedor_idFornecedor) REFERENCES fornecedor (idFornecedor) ON DELETE CASCADE;
 ALTER TABLE comprar
