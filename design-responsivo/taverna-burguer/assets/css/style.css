@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --cor1:#c84b31;
+    --cor2:#ecdbba;
+}
+#back{
+background-image:url(imgs/fundos/bck-vikings.jpg);
+height: 90vh;
+max-width: 100%;
+background-repeat: no-repeat;
+background-position:center;
+overflow: hidden;
+background-size: cover;
+}
+nav a{
+    color: white;
+}
+ #cardapio{
+    background-image: url(imgs/fundos/fundo-madeira-1-1170x821.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+} 
+.card{
+    color: white;
+    background-color: black;
+    width: 15rem;
+} 
+.card-imgs{
+    width: 100%;
+}
+.card .btn{
+ 
+    background-color: var(--cor2);
+}
