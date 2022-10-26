@@ -33,8 +33,8 @@ CREATE TABLE fornecedor (
     tipoDeLougradoro VARCHAR(50) NOT null
 )ENGINE = innodb;
 CREATE TABLE comprar (
-    fk_cliente_id_cliente INT,
-    fk_filmes_idFilme INT,
+    fk_cliente_id_cliente INT(11),
+    fk_filmes_idFilme INT(11),
     data_da_compra DATE NOT NULL,
     formaDePagamento VARCHAR(50) NOT null
 )ENGINE = innodb;
