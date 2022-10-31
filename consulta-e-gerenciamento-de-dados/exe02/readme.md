@@ -1,0 +1,7 @@
+# ALTERAÇÕES QUE EU FIZ NO BANCO DE DADOS
+
+### APAGUEI A COLUNA TELEFONECLIENTE2
+- ALTER TABLE `cliente` drop telefoneCliente2
+
+
+### 
