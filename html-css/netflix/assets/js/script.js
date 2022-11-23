@@ -6,7 +6,7 @@ onload = () => {
 			return resp.json();
 		})
 		.then((data) => {
-			console.log(data);
+			return data;
 		})
 		.catch(function (error) {
 			console.log(
