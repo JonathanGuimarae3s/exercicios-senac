@@ -6,16 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
-    div{
-        max-width: 50%;
-    }
-</style>
+    <style>
+        .card {
+
+            margin: 0 auto;
+            padding-top: 10px;
+            max-width: 45%;
+            background-color: #f2f2f2;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 4px 5px 0px #0000002b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #card-image,
+        #card-header {
+            text-align: center;
+        }
+
+        .card>div {
+            max-width: 100%;
+
+        }
+
+        #card-description {
+            max-width: 100%;
+            text-align: justify;
+            padding: 15px;
+        }
+
+        #div-btn {
+            width: 220px;
+            padding: 2px;
+            background-color: #5ef4438c;
+            color: #000;
+            border-radius: 5px;
+            border: 2px black solid;
+            text-align: center;
+            margin-bottom: 10px;
+
+        }
+    </style>
 </head>
 <?php
 $url = "https://images.kabum.com.br/produtos/fotos/121164/mouse-gamer-razer-deathadder-v2-mini-chroma-6-botoes-8500dpi-grip-tape-rz01-03340100-r3u1_1599748419_gg.jpg";
 $price = 99.99;
-$name = "Mouse Gamer Razer Deathadder V2 Mini, Chroma, Optical Switch, 6 Botões, 8500DPI + Mouse Grip Tape ";
+$name = "Mouse Gamer Razer Deathadder V2 Mini ";
 $description = " 
 
 Com sensor óptico de alta precisão com resolução real de 8500 DPI possui até 300 polegadas por segundo (IPS) / 35 G de aceleração máx, o design ergonômico derivado do Razer DeathAdder, otimizado para mãos menores, faz ser requisitado por todos gamers.
@@ -28,15 +66,22 @@ Seus seis botões Hyperesponse com programação independente, deixa a sensaçã
 
 <body>
 
-    <div>
-        <div id="cardImage">
-            <img src="mouse.jpg" alt="" width="50%">
+    <div class="card">
+        <div id="card-image">
+            <img src="mouse.jpg" alt="" width="45%">
         </div>
-        <div id="card-header"><?php echo $name ?></div>
-        <div id="card-description">
-            <p><?php echo $description ?></p>
+        <div id="card-header">
+            <span><?php echo $name ?></span>
             <p>R$ <?php echo $price ?></p>
         </div>
+
+        <div id="card-description">
+            <p><?php echo $description ?></p>
+
+        </div>
+        <button id="div-btn">
+            <p>Comprar</p>
+        </button>
     </div>
 
 </body>
