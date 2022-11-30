@@ -6,6 +6,6 @@ if ($idade>=65) {
     echo "adulto";
    
 }else {
-    echo"creança
+    echo"'creança'
     ";
 }
